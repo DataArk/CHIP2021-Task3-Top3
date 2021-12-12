@@ -41,7 +41,7 @@ pip install python-Levenshtein
 
 ##### 2.个数预测
 
-![1637117921242](./picture/1637117921242.png)
+![1637117921242](https://upload-images.jianshu.io/upload_images/24540525-318b6f6afd7701a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 对非标准词，直接使用文本分类对其对应的标准词个数进行预测（label分别为对应标准词一个，标准词两个和标准词两个以上）
 
@@ -49,7 +49,7 @@ pip install python-Levenshtein
 
 将非标准词和标准词拼接成如下bert输入，预测相似性
 
-![1637118179438](./picture/1637118179438.png)
+![1637118179438](https://upload-images.jianshu.io/upload_images/24540525-2b2ae07b30bbc62e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
