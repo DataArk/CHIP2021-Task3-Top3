@@ -70,8 +70,6 @@ docker run -it --name es-kibana -d -p 8080:9200 -p 5601:5601 nshou/elasticsearch
 python es_index.py
 ```
 
-PS：已经于39.99.190.185:8080上提供该服务
-
 ##### 2.整体复现
 
 ```
