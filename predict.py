@@ -24,8 +24,8 @@ from ark_nlp.factory.predictor import TCPredictor
 
 class DiseaseSearchEngine:
     def __init__(self, ):
-        self.es = Elasticsearch(hosts=[{"host": "39.99.190.185", 
-                                        "port": "8080"}])
+        self.es = Elasticsearch(hosts=[{"host": "ES IP", 
+                                        "port": "ES port"}])
 
     def search(self, _query: str, size=20):
         dsl = {

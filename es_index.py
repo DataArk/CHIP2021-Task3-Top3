@@ -4,8 +4,8 @@ import elasticsearch
 import pandas as pd
 
 
-es_client = elasticsearch.Elasticsearch(hosts=[{"host": "192.168.237.236",
-                                                "port": "9200"}])
+es_client = elasticsearch.Elasticsearch(hosts=[{"host": "ES IP",
+                                                "port": "ES port"}])
 
 # 创建索引
 
@@ -68,8 +68,8 @@ from elasticsearch import Elasticsearch
 
 class DiseaseSearchEngine:
     def __init__(self, ):
-        self.es = Elasticsearch(hosts=[{"host": "39.99.190.185", 
-                                        "port": "9200"}])
+        self.es = Elasticsearch(hosts=[{"host": "ES IP", 
+                                        "port": "ES port"}])
 
     def search(self, _query: str, size=20):
         dsl = {

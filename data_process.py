@@ -4,8 +4,8 @@ from elasticsearch import Elasticsearch
 
 class DiseaseSearchEngine:
     def __init__(self, ):
-        self.es = Elasticsearch(hosts=[{"host": "192.168.237.236",
-                                        "port": "9200"}])
+        self.es = Elasticsearch(hosts=[{"host": "ES IP",
+                                        "port": "ES port"}])
 
     def search(self, _query: str, size=20):
         dsl = {
