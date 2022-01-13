@@ -23,7 +23,7 @@ CPU:7核 Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
 
 ```
 Python 3.8.10
-pip install ark-nlp
+pip install ark-nlp==0.0.2
 pip install scikit-learn 
 pip install pandas
 pip install elasticsearch
